@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: board
+  datasource:
+    url: jdbc:oracle:thin:@//localhost:1521/xe
+    username: TOY
+    password: 1004
+    driver-class-name: oracle.jdbc.OracleDriver
+  jpa:
+    database: oracle
+    hibernate:
+      ddl-auto: create
+
+server:
+  port: 8090
