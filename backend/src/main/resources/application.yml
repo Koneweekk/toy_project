@@ -9,7 +9,7 @@ spring:
   jpa:
     database: oracle
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
 
 server:
   port: 8090
